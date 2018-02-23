@@ -27,7 +27,7 @@ let presenter = GreetingPresenter(view: view, person: model)
 Now let's try to code it. 
 
 
-##Common Data Process in iOS ViewController
+## Common Data Process in iOS ViewController
 
 
 * Obtain data from the Networking using JSON mostly
@@ -44,7 +44,7 @@ In the `MVP`,the `assistant` called `presenter`.And the way to report is `Protoc
 Talking about the `view` and `model` , in the `MVP`, `view` should be updated by the presenter.And `model` should provide the detail info like the color, size, height, layout and presenter handle these info and use the `view's interface` to  update.
 
 
-##Link the view controller and presenter
+## Link the view controller and presenter
 
 
 In the View Controller, we use the network interface to obtain the data.
@@ -89,7 +89,7 @@ Use the protocol to `link the view controller` and `presenter`. We can according
 ```
 
 
-##Link the view to presenter
+## Link the view to presenter
 
 
 Firstly, using the function and property, we can hold the view in presenter.
